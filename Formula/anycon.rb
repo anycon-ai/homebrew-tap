@@ -8,22 +8,22 @@ class Anycon < Formula
   on_macos do
     on_arm do
       url "https://github.com/anycon-ai/anycon/releases/download/v0.1.0/anycon-aarch64-apple-darwin.tar.gz"
-      sha256 "0d3e66e099039b01d2918e1ceaa9e9563faf0fcfc624c6c5a6b890d47fae6ff4"
+      sha256 "6bfedc071cb860f55db2ca4ec3aea7c01ad2da1c78475897bfca9a71b2686226"
     end
     on_intel do
       url "https://github.com/anycon-ai/anycon/releases/download/v0.1.0/anycon-x86_64-apple-darwin.tar.gz"
-      sha256 "2cc45ca5f2379ddc1762ca5bc0ff0151dd992c52cefaee8bde8efeed7877bcdb"
+      sha256 "0ea26f4a6387516f2cd2411efe66b4d087952f5069001d1ea518ab26d87e45a0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/anycon-ai/anycon/releases/download/v0.1.0/anycon-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "79bef9ca6f50a6b1c9e20b8481491c692be73c75b9321d6b56fc4a5116b7f095"
+      sha256 "ad74a89937c3ba5ac346bee2087b2cc8cf95034cf012c33455d515e6407d7d28"
     end
     on_intel do
       url "https://github.com/anycon-ai/anycon/releases/download/v0.1.0/anycon-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a880b11ee7e5ff1a83e06aa1fd04e175c75e42e470780330a29a8f11813c7fe9"
+      sha256 "eaca2635b36054e9398b1eeeb005982e67f9d5dc7192e214162c326cf4c0a503"
     end
   end
 
