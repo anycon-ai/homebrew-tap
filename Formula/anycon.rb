@@ -2,28 +2,28 @@
 class Anycon < Formula
   desc "Run coding agents on your own machine and talk to them from anywhere"
   homepage "https://github.com/anycon-ai/anycon"
-  version "0.1.1"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/anycon-ai/anycon/releases/download/v0.1.1/anycon-aarch64-apple-darwin.tar.gz"
-      sha256 "f4f8fe3801e558a46ac217fd94ea285d5c5d46f69354d59583b8c178e402715e"
+      url "https://github.com/anycon-ai/anycon/releases/download/v0.2.0/anycon-aarch64-apple-darwin.tar.gz"
+      sha256 "d5651e00816e6a3a9789b5e23a6decad65635deabb168ae8ad1072ab4a206a10"
     end
     on_intel do
-      url "https://github.com/anycon-ai/anycon/releases/download/v0.1.1/anycon-x86_64-apple-darwin.tar.gz"
-      sha256 "55de8674d5ebcf4f12121bed4ef7ceef2442218b4f54bb77e746e6eb30fe784c"
+      url "https://github.com/anycon-ai/anycon/releases/download/v0.2.0/anycon-x86_64-apple-darwin.tar.gz"
+      sha256 "fe248886f55ac79dc6553787f68a51ea42d91ba6cbc3942e68aa83fa96a40f73"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/anycon-ai/anycon/releases/download/v0.1.1/anycon-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0b53e8b2d2f8b8879fcc729adb2b3adbd7f4a2d61032475fdcd8785ef40c1a17"
+      url "https://github.com/anycon-ai/anycon/releases/download/v0.2.0/anycon-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "44a906079f8fd97e3f35f3f3db4e533312be041533c6635d23247472a326eeaf"
     end
     on_intel do
-      url "https://github.com/anycon-ai/anycon/releases/download/v0.1.1/anycon-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "305b5609bbaabb7b91ebb1274140a42f0d65371037c5de96ab67763d1ddcea05"
+      url "https://github.com/anycon-ai/anycon/releases/download/v0.2.0/anycon-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "68798c0ef0f9d06ae66a3dc6553a3b83dcce467466a5374021a8ad00c1437d05"
     end
   end
 
